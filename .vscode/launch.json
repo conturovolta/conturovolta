@@ -1,7 +1,17 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "cppdbg",
+            "request": "launch",
+            "name": "Launch Conturovolta (LLDB)",
+            "program": "${workspaceFolder}/Conturovolta",
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "build Conturovolta",
+            "internalConsoleOptions": "neverOpen"
+        },
         {
             "name": "C Debug (LLDB)",
             "type": "cppdbg",
